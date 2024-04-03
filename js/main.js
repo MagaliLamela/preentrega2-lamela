@@ -272,7 +272,7 @@ function validarEliminarProducto() {
 
 //! FUNCIÓN PRINCIPAL DEL CARRITO DE COMPRA
 //* Función principal que controla el flujo del carrito de compra.
-function carritoDeCompra() {
+function iniciarCarritoDeCompra() {
     // Permite al usuario agregar productos al carrito y realizar acciones adicionales como eliminar productos del carrito o finalizar la compra.
     while (seguirComprando == 1) {
         agregarProductoAlCarrito();
@@ -282,4 +282,4 @@ function carritoDeCompra() {
 }
 
 //* Llama a la función principal para iniciar el carrito de compra.
-carritoDeCompra();
+iniciarCarritoDeCompra();
