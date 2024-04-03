@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Huellitas Veterinaria. Los mejores productos y servicios para mascotas. Veterinaria y Peluquería Canina. Comprá online desde tu casa. Alimentos balanceados. Más de 100 productos para tu mascota. Petshop animales.">
+    <title>Huellitas - Veterinaria y PetShop Online</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/logo.png" alt="Logo de Huellitas">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 ms-auto p-2 text-center mx-auto">
+                    <li class="nav-item">
+                        <a class="active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="html/productos-perros.html">Perros</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="html/productos-gatos.html">Gatos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="html/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center buscadorCarrito">
+                    <img class="buscador" src="img/iconobuscador.png" alt="Ícono del Buscador">
+                    <a href="html/carrito-compra.html">
+                        <img class="carrito" src="img/iconocarrito.png" alt="Ícono del Carrito de Compras">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carouselHome" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner.png" alt="Cartel de Envío Express en el Día Sin Cargo en CABA">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner2.png" alt="Cartel de Productos con Descuentos hasta 30% off">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner3.png" alt="Cartel con Dirección y Teléfono de Nuestros Locales">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Iconos Home -->
+        <div class="iconosHome">
+            <div>
+                <img src="img/iconocamion.png" alt="Ícono Camión">
+                <div>
+                    <p>Enviamos tu compra</p>
+                    <p>Entregas a todo el país</p>
+                </div>
+            </div>
+            <div>
+                <img src="img/iconotarjeta.png" alt="Ícono Tarjeta">
+                <div>
+                    <p>Paga como quieras</p>
+                    <p>Tarjetas de crédito o efectivo</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="img/iconocandado.png" alt="Ícono Candado">
+                    <div>
+                        <p>Compra con seguridad</p>
+                        <p>Tus datos siempre protegidos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards -->
+
+        <h1 class="h1Home" data-aos="fade-right">Promociones del mes</h1>
+
+        <div class="container-fluid" data-aos="fade-right">
+
+            <div class="row cardsProductos cardsPromociones">
+
+                <div class="card cardIndividual col-xl-3 col-md-6 col-sm-12 h-100">
+                    <img src="img/promo1.png" class="card-img-top mx-auto"
+                        alt="Promoción 10% off en Royal Canin Mini Adult 3Kg">
+                    <h2 class="card-title">Royal Canin <br> Mini Adult 3 Kg</h2>
+                    <h3> <span> $10.300 </span> | $9.270 </h3>
+                    <button type="button" class="btnProductos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+
+                <div class="card cardIndividual col-xl-3 col-md-6 col-sm-12 h-100">
+                    <img src="img/promo2.png" class="card-img-top mx-auto"
+                        alt="Promoción 10% off en Royal Canin Gato Fit 1.5Kg">
+                    <h2 class="card-title">Royal Canin Gato <br> Fit 1,5 Kg</h2>
+                    <h3> <span> $8.100 </span> | $7.290</h3>
+                    <button type="button" class="btnProductos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+
+                <div class="card cardIndividual col-xl-3 col-md-6 col-sm-12 h-100">
+                    <img src="img/promo3.png" class="card-img-top mx-auto"
+                        alt="Promoción 10% off en Royal Canin Mini Puppy 3Kg">
+                    <h2 class="card-title">Royal Canin <br> Mini Puppy 3 Kg</h2>
+                    <h3> <span> $11.250 </span> | $10.125</h3>
+                    <button type="button" class="btnProductos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+
+                <div class="card cardIndividual col-xl-3 col-md-6 col-sm-12 h-100">
+                    <img src="img/promo4.png" class="card-img-top mx-auto"
+                        alt="Promoción 10% off en Royal Canin Gato Indoor 1.5Kg">
+                    <h2 class="card-title">Royal Canin Gato <br> Indoor 1,5 Kg</h2>
+                    <h3> <span> $8.100 </span> | $7.290</h3>
+                    <button type="button" class="btnProductos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img class="carritoProductoAgregado" src="img/iconocarrito2.png"
+                            alt="Ícono del Carrito con Producto Agregado">
+                        <h1 id="exampleModalLabel">¡Producto agregado al carrito!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-footer justify-content-around">
+                        <button type="button" class="btn btn-secondary btnSeguirComprando"
+                            data-bs-dismiss="modal">Seguir Comprando</button>
+                        <a href="html/carrito-compra.html"><button type="button"
+                                class="btn btnFinalizarCompra">Finalizar Compra</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer1">
+
+            <div class="localBelgrano">
+                <h3>Local Belgrano</h3>
+                <p>Av. Monroe 1655 <br> 4587-5248</p>
+            </div>
+
+            <div class="localPalermo">
+                <h3>Local Palermo</h3>
+                <p>Jerónimo Salguero 3212 <br> 4865-1547</p>
+            </div>
+
+            <div class="localRecoleta">
+                <h3>Local Recoleta</h3>
+                <p>Av. Pueyrredón 1650 <br> 4852-5751</p>
+            </div>
+
+            <div class="redes">
+                <h3>Seguinos</h3>
+                <a target="_blank" href="https://www.instagram.com">
+                    <img src="img/logoig.png" alt="Logo de Instagram">
+                </a>
+                <a target="_blank" href="https://www.facebook.com">
+                    <img src="img/logofb.png" alt="Logo de Facebook">
+                </a>
+                <a target="_blank" href="https://www.youtube.com">
+                    <img src="img/logoyoutube.png" alt="Logo de Youtube">
+                </a>
+            </div>
+
+            <div class="mediosDePago">
+                <h3>Formas de pago</h3>
+                <img id="logoVisa" src="img/logovisa.png" alt="Logo de Tarjeta Visa">
+                <img id="logoVisaDebito" src="img/logovisadebito.png" alt="Logo de Tarjeta Visa Débito">
+                <img id="logoMaster" src="img/logomastercard.png" alt="Logo de Tarjeta Mastercard">
+                <img id="logoAmex" src="img/logoamex.png" alt="Logo de Tarjeta Amex">
+                <img id="logoMp" src="img/logomercadopago.png" alt="Logo de Mercado Pago">
+            </div>
+
+        </div>
+
+        <div class="footer2">
+            <p>Conocé nuestra <a href="#">Política de Devoluciones</a>.
+                <br>
+                2023 Huellitas - Todos los derechos reservados.
+            </p>
+        </div>
+
+    </footer>
+
+    <div>
+        <a target="_blank"
+            href="https://api.whatsapp.com/send?phone=1170238323&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?">
+            <img id="logoWpp" src="img/logowpp.png" alt="Logo de Whatsapp">
+        </a>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
